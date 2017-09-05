@@ -5,11 +5,12 @@ function createDBConnection() {
   return mysql.createConnection({
     host : "localhost",
     user : "root",
-    password : "",
-    database : "casadocodigo"
+    password : "senha",
+    database : "casadocodigo_node"
+  
   });
 };
 
 module.exports = function(){
-  return createDBConnection();
+  return createDBConnection;
 };
