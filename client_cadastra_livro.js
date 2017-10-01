@@ -13,7 +13,7 @@ var configuracoes = {
 }
 
 var produto = {
-    titulo : "Node bonzao",
+    titulo : "",
     descricao : "node JS é muito bom" ,
     preco : 54
 };
